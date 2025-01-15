@@ -2,38 +2,136 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of a FAT report?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+         "a": "To document the results of the SAT",
+        "b": "To document the results of the CAT",
+        "c": "To document the results of the FAT",
+        "d": "To document the equipment specifications"
+		
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is a typical outcome of a successful SAT?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Identification of equipment defects",
+        "b": "Verification of equipment installation",
+        "c": "Development of an operation manual",
+        "d": "Creation of a maintenance schedule"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary focus of a CAT?",
+      "answers": {
+        "a": "Equipment testing",
+        "b": "Operator training",
+        "c": "Commissioning and start-up",
+        "d": "Maintenance and repair"
       },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "Which of the following documents is typically updated after completing the CAT?",
+      "answers": {
+        "a": "SAT protocol",
+        "b": "FAT report",
+        "c": "Operation manual",
+        "d": "Maintenance schedule"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the primary benefit of conducting a SAT after the FAT?",
+      "answers": {
+        "a": "Reduced equipment cost",
+        "b": "Improved equipment performance",
+        "c": "Verification of equipment installation",
+        "d": "Reduced project schedule"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "Who is typically responsible for conducting the CAT?",
+      "answers": {
+        "a": "Vendor",
+        "b": "Purchaser",
+        "c": "Commissioning team",
+        "d": "Operations team"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "What is the primary purpose of a SAT protocol?",
+      "answers": {
+        "a": "To document the results of the SAT",
+        "b": "To outline the scope of work for the SAT",
+        "c": "To specify the equipment testing procedures",
+        "d": "To identify the equipment defects"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "Which of the following is a critical aspect of a FAT?",
+      "answers": {
+        "a": "Equipment testing",
+        "b": "Operator training",
+        "c": "Safety procedures",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "What is the primary outcome of a successful CAT?",
+      "answers": {
+        "a": "Equipment is ready for operation",
+        "b": "Equipment is ready for maintenance",
+        "c": "Equipment is ready for repair",
+        "d": "Equipment is ready for testing"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "Which of the following is a key performance indicator (KPI) for a CAT?",
+      "answers": {
+        "a": "Equipment testing duration",
+        "b": "Number of equipment defects identified",
+        "c": "Time to achieve stable operation",
+        "d": "Number of operator training sessions"
+      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
+  
+  
+  
+  
+  
   ]
 }
