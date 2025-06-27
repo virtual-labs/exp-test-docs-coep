@@ -1,0 +1,48 @@
+  table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 8px;
+           
+	    border: 1px solid #ddd;
+	    text-align: left;
+	    padding: 8px;
+	    color: #5b5e63;
+	    font-size: 17px;
+	    font-weight: 700;
+
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .input-box {
+            width: 60%;
+            padding: 5px;
+        }
+        .status {
+            font-size: 16px;
+        }
+        .correct {
+            color: green;
+        }
+        .wrong {
+            color: red;
+        }
+        #accuracy {
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .group-color-1 {
+            background-color: #ffdddd;
+        }
+        .group-color-2 {
+            background-color: #ddffdd;
+        }
+        .group-color-3 {
+            background-color: #ddddff;
+        }
