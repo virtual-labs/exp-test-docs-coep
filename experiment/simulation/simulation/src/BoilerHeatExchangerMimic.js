@@ -2,7 +2,7 @@ var startCountSat = 0;
 var dataJson = {};
 
 
-var selectedValue = 10;
+var selectedValue = 500;
 var faultcnt = 0;
 var faultcntCorr = 0;
 timerMasterJson = {};

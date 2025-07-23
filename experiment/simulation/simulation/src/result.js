@@ -27,7 +27,7 @@ function result(){
  	 </div>
 	</div>`
 	+'<div class="container-fluid">'
-	 +' <div class="row titlePart" id="" ><center><span >SAT - BOILER HEAT EXCHANGER PLANT(EVENT and ALAM)</span></center></div>'
+	 +' <div class="row titlePart" id="" ><center><span >SAT - BOILER HEAT EXCHANGER PLANT(EVENT and ALARM)</span></center></div>'
 	+'<div class="container-fluid">'
 	  
 	+' <!-- Title -->'
