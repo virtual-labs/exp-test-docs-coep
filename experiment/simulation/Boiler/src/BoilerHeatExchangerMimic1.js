@@ -3,7 +3,7 @@ var dataJson = {};
 //var startCount=0;
 var datasheetCount = 0;
 var trendsCount = 0;
-var selectedValue = 1000;
+var selectedValue = 500;
 
 function BoilerHeatExchangerMimic1() {
 	$("#mainDiv").html(`<div class="row">
@@ -321,7 +321,7 @@ function BoilerHeatExchangerDiagram1() {
 	y = 10;
 	var ht = -100;
 
-	time = selectedValue;
+	time = 500;
 
 	//var arc = paper.path("M "+(x+200)+" "+(y+300)+" A 300 150 0 0 0 "+(x+700)+" "+(y+300)).attr({ 'stroke': '#000', 'stroke-width': 4});
 
