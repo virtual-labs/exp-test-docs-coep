@@ -406,11 +406,12 @@ function animateTempSensor() {
 	rectTextBoxes(x + 1170, y + 605);
 	var tt8Text = paper.text((x + 1205), (y + 619), "000.00").attr({ "font-size": 18, "font-family": "digital-clock-font", "fill": txtColor, "font-weight": "bold" });
 
-	paper.rect((x + 660), (y + 390), 200, 75, 5);
+	paper.rect((x + 660), (y + 390), 100, 75, 5);
 	paper.text((x + 670), (y + 410), "Refrigerator").attr({ 'font-size': 14, 'font-weight': 'bold', 'text-anchor': 'start' });
 	var refOn = paper.image("TemperatureSensor/images/green.png", (x + 690), (y + 420), 40, 40);
 	var refOff = paper.image("TemperatureSensor/images/red.png", (x + 690), (y + 420), 40, 40);
 
+	paper.rect((x + 770), (y + 390), 90, 75, 5);
 	paper.text((x + 797), (y + 410), "Heater").attr({ 'font-size': 14, 'font-weight': 'bold', 'text-anchor': 'start' });
 	var heaterOn = paper.image("TemperatureSensor/images/green.png", (x + 800), (y + 420), 40, 40);
 	var heaterOff = paper.image("TemperatureSensor/images/red.png", (x + 800), (y + 420), 40, 40);
