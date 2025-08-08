@@ -1234,7 +1234,7 @@ function BoilerHeatExchangerDiagram() {
 
 	var ht1 = 0;
 	$("#startBtn").click(function() {
-
+		$("#startBtn").prop("disabled", true);
 		startCountSat++;
 
 		startP1.toBack();
@@ -1535,7 +1535,7 @@ function BoilerHeatExchangerDiagram() {
 					motor1.attr("fill", "Red");
 					startP3.toBack();
 					$("#reset").prop("disabled", false);
-					$("#startBtn").prop("disabled", true);
+					$("#startBtn").prop("disabled", false);
 					$("#nextLevelFault").prop("disabled", false);
 
 					Swal.fire({

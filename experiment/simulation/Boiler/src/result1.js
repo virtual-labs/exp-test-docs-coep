@@ -9,6 +9,7 @@ function result1(){
 	timerMasterJson.mimic=$("#counter").text();
 	$("#simDemo,#procedure,#counter,#tagDetails").prop("hidden",true);
 	$("#report").prop("hidden",false);
+	$("#download").prop("hidden",true);
 	$("#Header").prop("hidden", true);
 	
 	htm2=''
