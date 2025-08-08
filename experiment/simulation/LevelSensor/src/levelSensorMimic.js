@@ -415,9 +415,9 @@ function animateLevelSensor() {
 	motor_imgG.toBack();
 	onBtn.hide();
 
-	var cntfLbl = paper.text((x + 705), (y + 235), 0).attr({ 'font-size': 15, 'font-weight': 'bold' });
+	//var cntfLbl = paper.text((x + 705), (y + 235), 0).attr({ 'font-size': 15, 'font-weight': 'bold' });
 
-	var cntsLbl = paper.text((x + 205), (y + 205), 0).attr({ 'font-size': 15, 'font-weight': 'bold' });
+	//var cntsLbl = paper.text((x + 205), (y + 205), 0).attr({ 'font-size': 15, 'font-weight': 'bold' });
 
 	//    Initial feed Tank fill
 	function tank_fillf(x, y) {
@@ -437,8 +437,8 @@ function animateLevelSensor() {
 					lhfrStrip.toFront();
 				}
 				ptf = ptf + intFact;
-				cntfLbl.attr('text', Math.round(ptf));
-				cntfLbl.toFront();
+				//cntfLbl.attr('text', Math.round(ptf));
+				//cntfLbl.toFront();
 			} else {
 				stOff.toFront();
 				inletR.toFront();
@@ -471,8 +471,8 @@ function animateLevelSensor() {
 				opacity: 1
 			}, time);
 
-			cntsLbl.attr('text', Math.round(pts));
-			cntsLbl.toFront();
+			//cntsLbl.attr('text', Math.round(pts));
+			//cntsLbl.toFront();
 			llsIndicator.toFront();
 			lhsIndicator.toFront();
 			capacitive.toFront();
@@ -540,8 +540,8 @@ function animateLevelSensor() {
 				opacity: 1
 			}, time);
 
-			cntfLbl.attr('text', Math.round(ptf));
-			cntfLbl.toFront();
+			//cntfLbl.attr('text', Math.round(ptf));
+			//cntfLbl.toFront();
 			llfIndicator.toFront();
 			lhfIndicator.toFront();
 			offBtn.hide();
@@ -763,8 +763,8 @@ function animateLevelSensor() {
 				opacity: 1
 			}, time);
 
-			cntsLbl.attr('text', Math.round(pts));
-			cntsLbl.toFront();
+			//cntsLbl.attr('text', Math.round(pts));
+			//cntsLbl.toFront();
 			llsIndicator.toFront();
 			lhsIndicator.toFront();
 			capacitive.toFront();
@@ -829,8 +829,8 @@ function animateLevelSensor() {
 				opacity: 1
 			}, time);
 
-			cntfLbl.attr('text', Math.round(ptf));
-			cntfLbl.toFront();
+			//cntfLbl.attr('text', Math.round(ptf));
+			//cntfLbl.toFront();
 			llfIndicator.toFront();
 			lhfIndicator.toFront();
 			if (ptf === 25) {
@@ -908,8 +908,8 @@ function animateLevelSensor() {
 				opacity: 1
 			}, time);
 
-			cntsLbl.attr('text', Math.round(pts));
-			cntsLbl.toFront();
+			//cntsLbl.attr('text', Math.round(pts));
+			//cntsLbl.toFront();
 			llsIndicator.toFront();
 			lhsIndicator.toFront();
 			capacitive.toFront();
