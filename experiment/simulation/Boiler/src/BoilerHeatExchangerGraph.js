@@ -115,88 +115,88 @@ $('#download').on('click', function() {
 		            
 		            series: [
 		                {
-		                    name: 'DRUM TEMPERATURE',
+		                    name: 'TT01',
 		                    data: [],
 		                    color: '#FF5733'
 		                },
 		                {
-		                    name: 'STEAM TEMPERATURE',
+		                    name: 'TT02',
 		                    data: [],
 		                    color: '#33FF57'
 		                },
 		                {
-		                    name: 'HE Outlet Water Temperature',
+		                    name: 'TT03',
 		                    data: [],
 		                    color: '#3357FF'
 		                },
 						{
-		                    name: 'Inlet Water Temperature_HE',
+		                    name: 'TT04',
 		                    data: [],
 		                    color: '#FF33A6'
 		                },
 		                {
-		                    name: 'Boiler feed water Temperature_Condensor ',
+		                    name: 'TT05',
 		                    data: [],
 		                    color: '#FFDB33'
 		                },
 		                {
-		                    name: 'Boiler feed water Temperature',
+		                    name: 'TT06',
 		                    data: [],
 		                    color: '#A633FF'
 		                },
 		                {
-		                    name: 'Boiler feed water Flow Inf Feed Pump_101 ',
+		                    name: 'FT1',
 		                    data: [],
 		                    color: '#33FFF3'
 		                },
 		                {
-		                    name: 'Steam Flow ',
+		                    name: 'FT2',
 		                    data: [],
 		                    color: '#FF8C33'
 		                },
 		                {
-		                    name: 'Feed Water Flow HE Inlet',
+		                    name: 'FT3',
 		                    data: [],
 		                    color: '#33FF8C'
 		                },
 		                {
-		                    name: 'Steam Pressure Transmitter',
+		                    name: 'PT',
 		                    data: [],
 		                    color: '#8C33FF'
 		                },
 						 
 		                {
-		                    name: 'Control Valve',
+		                    name: 'FCV',
 		                    data: [],
 		                    color: '#FF3333'
 		                },
 		                {
-		                    name: 'Silicon Controlled Rectifier',
+		                    name: 'SCR',
 		                    data: [],
 		                    color: '#00b3b3'
 		                },
 						  {
-		                    name: ' Mod Sov 1',
+		                    name: ' MSV1',
 		                    data: [],
 		                    color: '#33FF33'
 		                },
 		                {
-		                    name: ' Mod Sov 2',
+		                    name: ' MSV2',
 		                    data: [],
 		                    color: '#3333FF'
 		                },
 		                {
-		                    name: 'Feed Pump Speed_Inlet(VFD_101)',
+		                    name: 'PY1',
 		                    data: [],
 		                    color: '#FFC733'
 		                },
 		                {
-		                    name: 'Feed Pump_HE_Water(VFD_201)',
+		                    name: 'PY2',
 		                    data: [],
 		                    color: '#33A6FF'
 		                },
 		                {
-		                    name: 'Level Transmitter Drum',
+		                    name: 'LT',
 		                    data: [],
 		                    color: '#808080'
 		                }
