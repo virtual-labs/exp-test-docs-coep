@@ -1,7 +1,7 @@
 function BoilerGraph(arrayJson)
 {
-	$("#checkDiv,#download").prop("hidden",false);
-console.log(arrayJson);
+	$("#checkDiv").prop("hidden",false);
+//console.log(arrayJson);
 	var htm=''
 //	+'<div class="container mt-5">'
 	+' <h2 class="text-center text-light mb-4"></h2>'
