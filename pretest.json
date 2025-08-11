@@ -1,0 +1,137 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": " What is the primary purpose of a Factory Acceptance Test (FAT)?",
+      "answers": {
+         "a": "To verify the installation of equipment at the site ",
+        "b": "To test the equipment at the manufacturer's site before shipment ",
+        "c": "To train operators on the equipment ",
+        "d": "To inspect the equipment for damage during transportation"
+		
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following documents is typically prepared by the vendor and submitted to the purchaser before the FAT?",
+      "answers": {
+        "a": "SAT protocol",
+        "b": "FAT protocol",
+        "c": "Technical specification",
+        "d": "Operation manual"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "What is the main objective of a Site Acceptance Test (SAT)?",
+      "answers": {
+         "a": "To verify the performance of the equipment at the site",
+        "b": "To inspect the equipment for damage during transportation",
+        "c": "To train operators on the equipment",
+        "d": "To test the equipment at the manufacturer's site before shipment"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is NOT a typical component of a SAT protocol?",
+      "answers": {
+        "a": "Test procedures",
+        "b": "Test schedule",
+        "c": "Equipment specifications",
+        "d": "Operator training program"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary purpose of a Commissioning Acceptance Test (CAT)?",
+      "answers": {
+        "a": "To verify the performance of the equipment at the site",
+        "b": "To test the equipment at the manufacturer's site before shipment",
+        "c": "To commission the equipment and prepare it for operation",
+        "d": "To inspect the equipment for damage during transportation"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "Who is typically responsible for preparing the CAT protocol?",
+      "answers": {
+        "a": "Vendor",
+        "b": "Purchaser",
+        "c": "Commissioning team",
+        "d": "Operations team"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the main difference between a FAT and a SAT?",
+      "answers": {
+        "a": "Location of the test",
+        "b": "Purpose of the test",
+        "c": "Type of equipment being tested",
+        "d": "Duration of the test"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Which of the following is a typical deliverable from a FAT?",
+      "answers": {
+        "a": "SAT protocol",
+        "b": "Test report",
+        "c": "Operation manual",
+        "d": "Maintenance schedule"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the primary benefit of conducting a SAT?",
+      "answers": {
+        "a": "Reduced equipment cost",
+        "b": "Improved equipment performance",
+        "c": "Verification of equipment installation",
+        "d": "Reduced project schedule"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Which of the following is a critical aspect of a CAT?",
+      "answers": {
+        "a": "Equipment testing",
+        "b": "Operator training",
+        "c": "Safety procedures",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  
+  
+  
+  
+  
+  
+  
+  ]
+}
